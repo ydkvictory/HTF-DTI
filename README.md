@@ -1,20 +1,21 @@
 # HTF-DTI
-HTF-DTI Hypergraph-Based High-Low Order Topological Fusion for Drug-Target Interaction Prediction
+
+## Hypergraph Topology Fusion for Drug–Target Interaction Prediction
 
 HTF-DTI is a deep learning framework designed for drug–target interaction (DTI) prediction. It integrates hypergraph representation learning, graph attention networks (GAT), and a graph-enhanced dual-path interaction module for modeling complex biological relationships.
 
 ***
 
-## ✨ Key Features
+## Key Features
 
-- 🔗 **Hypergraph Modeling** for high-order biological relationships
-- 🧠 **Graph Attention Networks (GAT)** for representation learning
-- 🔄 A Graph-Enhanced **Dual-Path interaction module** for interaction modeling
-- 📊 Supports multiple benchmark datasets (Luo, Zheng, Yamanishi)
+-(1) **Hypergraph Modeling** for high-order biological relationships
+-(2) **Graph Attention Networks (GAT)** for representation learning
+-(3) A Graph-Enhanced **Dual-Path interaction module** for interaction modeling
+-(4) Supports multiple benchmark datasets (Luo, Zheng, Yamanishi)
 
 ***
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 HTF-DTI/
@@ -30,7 +31,7 @@ HTF-DTI/
 
 ***
 
-## ⚙️ Requirements
+## Requirements
 
 - Python >= 3.8
 - PyTorch >= 1.10
@@ -49,7 +50,7 @@ pip install torch-geometric
 
 ***
 
-## 🚀 Quick Start
+## Quick Start
 
 Run the model:
 
@@ -86,7 +87,7 @@ for name in ["Luo", "Zheng", "Es", "GPCRs", "ICs", "NRs"]:
 
 ***
 
-## 🧪 Training Details
+## Training Details
 
 - Optimizer: Adam
 - Learning Rate: 0.0001
@@ -97,7 +98,7 @@ for name in ["Luo", "Zheng", "Es", "GPCRs", "ICs", "NRs"]:
 
 ***
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 - AUROC
 - AUPR
@@ -105,4 +106,3 @@ for name in ["Luo", "Zheng", "Es", "GPCRs", "ICs", "NRs"]:
 - Accuracy
 
 ***
-
